@@ -21,13 +21,13 @@ body, #main-container{
     flex-direction: column;
     gap: 10px;}
 
-#tablero{
+#dashboard{
     display: grid;
     grid-template-columns: repeat(3, 100px);
     grid-template-rows: repeat(3, 100px);
     gap: 5px;}
 
-.casilla{
+.cell{
     border: 1px solid var(--background-secundary-color);
     display: flex;
     justify-content: center;
